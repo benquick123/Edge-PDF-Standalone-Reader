@@ -1,6 +1,6 @@
 # Use Edge PDF Reader as a Standalone App
 
-A simple executable file that you can set as a default PDF document opener. It opens your PDF documents in Microsoft Edge PDF viewer, but without the browser controls you would find if you just set the browser as your default app. This probably also works with Google Chrome just by changing the executable location and converting the `.bat` to `.exe`.
+A simple executable file that you can set as a default PDF document opener. It opens your PDF documents in Microsoft Edge PDF viewer, but without the browser controls you would find if you just set the browser as your default app. This probably also works with Google Chrome just by changing the executable location and recompiling to `.exe`.
 
 ## To use
 
