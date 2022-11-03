@@ -14,3 +14,7 @@ The `.exe` file is produced using _BAT to EXE Converter_ from [here](https://bat
 ## Contribute
 
 If you think you could add more functionality to this project, I'll be happy to review pull requests. You can also submit your ideas by opening a new issue.
+
+## Additional reference
+
+Maybe [this](https://stackoverflow.com/questions/65867046/when-running-a-bat-file-with-start-process) should be checked out to resolve open pdf documents not being grouped together in the taskbar.
