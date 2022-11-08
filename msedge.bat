@@ -47,7 +47,7 @@ del %b2eincfilepath%\shortcut.exe
 
 "%~dp0\msedge.exe" --new_window --app="%full_link_path%"
 
-timeout 3
+timeout 10
 
 del "%full_link_path%"
 
