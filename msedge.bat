@@ -32,7 +32,7 @@
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
-@echo off
+echo off
 
 setlocal enabledelayedexpansion
 set "string=abcdefghijklmnopqrstuvwxyz"
@@ -43,6 +43,7 @@ set link_filename=%link_filename% PDF Shortcut.lnk
 set full_link_path=%LocalAppData%\Microsoft\Edge\%link_filename%
 
 %b2eincfilepath%\shortcut.exe /A:c /F:"%full_link_path%" /T:%1
+del %b2eincfilepath%\shortcut.exe
 
 "%~dp0\msedge.exe" --new_window --app="%full_link_path%"
 
