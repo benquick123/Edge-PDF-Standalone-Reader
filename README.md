@@ -2,6 +2,8 @@
 
 A simple executable file that you can set as a default PDF document opener. It opens your PDF documents in Microsoft Edge PDF viewer, but without the browser controls you would find if you just set the browser as your default app. This probably also works with Google Chrome just by changing the executable location and recompiling to `.exe`.
 
+![Screenshot](https://raw.githubusercontent.com/benquick123/Edge-PDF-Standalone-Reader/main/screenshot.png "Screenshot")
+
 ## To use
 
 1. Download the .exe file and place it next to the Microsoft Edge executable (usually found in `C:/Program Files/Microsoft/Edge/Application/`). 
