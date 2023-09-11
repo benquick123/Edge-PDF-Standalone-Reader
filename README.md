@@ -21,7 +21,7 @@ Currently, whenever the "Current Directory" requires Admin priviliges (e.g. sear
 - recompile the `.exe` and change the Extraction Directory to, for example, *AppData*, or
 - completely [disable UAC](https://www.tenforums.com/tutorials/112488-enable-disable-user-account-control-uac-windows.html#:~:text=prompt%20when%20enabled-,OPTION%20ONE,Enable%20or%20Disable%20User%20Account%20Control%20(UAC)%20in%20Local%20Security%20Policy,-The%20Local%20Security).
 
-If you happen to open files containing non-ASCII characters, the application won't open it (see [this issue](https://github.com/benquick123/Edge-PDF-Standalone-Reader/issues/1#issue-1501492665)). Current workaround is to enable UTF-8 in Region settings like described in the first part of [this answer](https://stackoverflow.com/a/57134096/8094700).
+If you happen to open files containing non-ASCII characters, the application won't open them (see [this issue](https://github.com/benquick123/Edge-PDF-Standalone-Reader/issues/1#issue-1501492665)). Current workaround is to enable UTF-8 in Region settings like described in the first part of [this answer](https://stackoverflow.com/a/57134096/8094700).
 
 ## Contribute
 
