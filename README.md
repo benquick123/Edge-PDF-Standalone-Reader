@@ -17,7 +17,7 @@ The enclosed `shortcut.exe` is from some suite of programs I can't find right no
 
 ## Known issues
 
-If you happen to open files containing non-ASCII characters, the application won't open them (see [this issue](https://github.com/benquick123/Edge-PDF-Standalone-Reader/issues/1#issue-1501492665)). Current workaround is to enable UTF-8 in Region settings like described in the first part of [this answer](https://stackoverflow.com/a/57134096/8094700).
+If you happen to open files with filenames containing non-ASCII characters, the application won't open them (see [this issue](https://github.com/benquick123/Edge-PDF-Standalone-Reader/issues/1#issue-1501492665)). Current workaround is to enable UTF-8 in Region settings like described in the first part of [this answer](https://stackoverflow.com/a/57134096/8094700).
 
 ### Admin privileges (before 12.09.2023)
 
