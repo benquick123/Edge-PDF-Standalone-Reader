@@ -23,7 +23,7 @@ If you happen to open files with filenames containing non-ASCII characters, the 
 
 Whenever the "Current Directory" requires Admin privileges (e.g. searching using Start, opening a file in Program Files), the executable will not be able to extract one of the files in that folder. To remedy this issue completely [disable UAC](https://www.tenforums.com/tutorials/112488-enable-disable-user-account-control-uac-windows.html#:~:text=prompt%20when%20enabled-,OPTION%20ONE,Enable%20or%20Disable%20User%20Account%20Control%20(UAC)%20in%20Local%20Security%20Policy,-The%20Local%20Security).
 
-This should be fixed with the latest update. The files are now extracted to %AppData%.
+^This should be fixed with the latest update. The files are now extracted to %AppData%.
 
 ## Contribute
 
