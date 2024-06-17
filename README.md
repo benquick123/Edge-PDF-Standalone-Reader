@@ -4,6 +4,8 @@ A simple executable file that you can set as a default PDF document opener. It o
 
 ![Screenshot](https://raw.githubusercontent.com/benquick123/Edge-PDF-Standalone-Reader/main/screenshot.png "Screenshot")
 
+The script might seem overly complicated for the purpose, but the utilized way of creating a shortcut to the PDF file, and naming it in a specific way offers a benefit of having your open PDFs grouped in the taskbar. Additionally, the compilation of `.bat` to `.exe` allows using the `shortcut.exe` tool for shortcut creation, and embedding the icon displayed in the taskbar when the user opens a PDF file.
+
 ## To use
 
 1. Download the .exe file and place it next to the Microsoft Edge executable (usually found in `C:/Program Files/Microsoft/Edge/Application/`). 
@@ -19,11 +21,7 @@ The enclosed `shortcut.exe` is from some suite of programs I can't find right no
 
 If you happen to open files with filenames containing non-ASCII characters, the application won't open them (see [this issue](https://github.com/benquick123/Edge-PDF-Standalone-Reader/issues/1#issue-1501492665)). Current workaround is to enable UTF-8 in Region settings like described in the first part of [this answer](https://stackoverflow.com/a/57134096/8094700).
 
-### Admin privileges (before 12.09.2023)
-
-Whenever the "Current Directory" requires Admin privileges (e.g. searching using Start, opening a file in Program Files), the executable will not be able to extract one of the files in that folder. To remedy this issue completely [disable UAC](https://www.tenforums.com/tutorials/112488-enable-disable-user-account-control-uac-windows.html#:~:text=prompt%20when%20enabled-,OPTION%20ONE,Enable%20or%20Disable%20User%20Account%20Control%20(UAC)%20in%20Local%20Security%20Policy,-The%20Local%20Security).
-
-^This should be fixed with the latest update. The files are now extracted to %AppData%.
+Apparently, the compiled `.exe` gets flagged by some antivirus software, which is why there is an option to reproduce the executable file yourself.
 
 ## Contribute
 
